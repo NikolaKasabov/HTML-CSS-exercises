@@ -54,6 +54,7 @@ header {
 
 header nav {
   position: relative;
+  z-index: 10;
 }
 
 header #open-nav-btn,
@@ -96,10 +97,18 @@ header li:not(:first-child) a {
   justify-content: center;
   flex-wrap: wrap;
   gap: 105px;
+  position: relative;
+  overflow: hidden;
 }
 
 .section-1 .left {
   max-width: 430px;
+}
+
+.section-1 .left,
+.section-1 .right {
+  position: relative;
+  z-index: 5;
 }
 
 .section-1 .left h1 {
@@ -122,6 +131,14 @@ header li:not(:first-child) a {
 
 .section-1 .right img {
   width: 100%;
+}
+
+.section-1 .scribble-1-1 {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  opacity: 0.2;
+  transform: scale(7);
 }
 
 /* SECTION-2 */
@@ -154,6 +171,67 @@ header li:not(:first-child) a {
   color: var(--secondary-color);
 }
 
+/* SECTION-3 */
+.section-3 {
+  padding: 165px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-3 .cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.section-3 .card {
+  max-width: 363px;
+  position: relative;
+  z-index: 5;
+  background-color: var(--secondary-color);
+}
+
+.section-3 .card img {
+  width: 100%;
+}
+
+.section-3 .card .line {
+  margin-top: 27px;
+  width: 50px;
+  height: 3px;
+  background-color: var(--primary-color);
+}
+
+.section-3 .card h3 {
+  margin-top: 24px;
+  max-width: 230px;
+  font-size: 36px;
+  letter-spacing: -1px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.section-3 .card p {
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.section-3 .scribble-3-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.section-3 .scribble-3-2 {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: scale(1.6) translateX(20%);
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1440px) {
   .section-1 {
@@ -173,6 +251,10 @@ header li:not(:first-child) a {
 }
 
 @media screen and (max-width: 800px) {
+  header {
+    padding: 50px 20px;
+  }
+
   header #open-nav-btn {
     display: block;
   }
@@ -212,5 +294,9 @@ header li:not(:first-child) a {
 
   .section-2 h2 {
     font-size: 40px;
+  }
+
+  .section-3 {
+    padding: 80px 20px;
   }
 }
