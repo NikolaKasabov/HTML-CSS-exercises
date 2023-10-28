@@ -147,6 +147,8 @@ header li:not(:first-child) a {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .section-2 h2 {
@@ -154,14 +156,20 @@ header li:not(:first-child) a {
   max-width: 440px;
   font-size: 55px;
   letter-spacing: -1px;
-  line-height: 55px;
+  line-height: 1;
   font-weight: 700;
+  background-color: var(--primary-color);
+  position: relative;
+  z-index: 5;
 }
 
 .section-2 p {
   margin: 20px auto 0 auto;
   max-width: 440px;
   font-size: 17px;
+  background-color: var(--primary-color);
+  position: relative;
+  z-index: 5;
 }
 
 .section-2 button {
@@ -169,6 +177,23 @@ header li:not(:first-child) a {
   padding: 0 60px;
   border-color: var(--secondary-color);
   color: var(--secondary-color);
+  background-color: var(--primary-color);
+  position: relative;
+  z-index: 5;
+}
+
+.section-2 .scribble-2-1 {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  transform: scale(1.5);
+}
+
+.section-2 .scribble-2-2 {
+  position: absolute;
+  top: 70%;
+  right: 40px;
+  transform: scale(2);
 }
 
 /* SECTION-3 */
