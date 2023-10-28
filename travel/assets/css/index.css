@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #232323;
+  --secondary-color: #e9e7e7;
 }
 
 body {
@@ -40,9 +41,7 @@ h6 {
 .main-container {
   max-width: 1440px;
   margin: 0 auto;
-
-  /* todo: delete next line */
-  border: 1px solid green;
+  background-color: var(--secondary-color);
 }
 
 /* HEADER */
@@ -70,7 +69,7 @@ header #close-nav-btn {
   position: absolute;
   top: 20px;
   right: 20px;
-  color: #fff;
+  color: var(--secondary-color);
 }
 
 header ul {
@@ -99,7 +98,6 @@ header li:not(:first-child) a {
   gap: 105px;
 }
 
-
 .section-1 .left {
   max-width: 430px;
 }
@@ -119,11 +117,41 @@ header li:not(:first-child) a {
 .section-1 .left button {
   margin-top: 40px;
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--secondary-color);
 }
 
 .section-1 .right img {
   width: 100%;
+}
+
+/* SECTION-2 */
+.section-2 {
+  padding: 50px 20px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.section-2 h2 {
+  margin: 0 auto;
+  max-width: 440px;
+  font-size: 55px;
+  letter-spacing: -1px;
+  line-height: 55px;
+  font-weight: 700;
+}
+
+.section-2 p {
+  margin: 20px auto 0 auto;
+  max-width: 440px;
+  font-size: 17px;
+}
+
+.section-2 button {
+  margin-top: 35px;
+  padding: 0 60px;
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 /* MEDIA QUERIES */
@@ -175,10 +203,14 @@ header li:not(:first-child) a {
   }
 
   header li a {
-    color: #fff;
+    color: var(--secondary-color);
   }
 
   .section-1 .left h1 {
     font-size: 44px;
+  }
+
+  .section-2 h2 {
+    font-size: 40px;
   }
 }
