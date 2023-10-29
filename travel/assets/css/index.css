@@ -338,10 +338,48 @@ header li:not(:first-child) a {
 .section-4 .container .text-wrapper {
   grid-area: four;
   font-size: 17px;
+  display: flex;
+  flex-direction: column;
 }
 
-.section-4 .container .text-wrapper p:last-child {
+.section-4 .container .text-wrapper p:last-of-type {
   margin-top: 15px;
+}
+
+.section-4 .arrow {
+  margin-top: auto;
+  width: 140px;
+  align-self: flex-end;
+  position: relative;
+  transform: translateY(-25px);
+}
+
+.section-4 .arrow .line-1 {
+  width: 140px;
+  height: 4px;
+  background-color: var(--primary-color);
+}
+
+.section-4 .arrow .line-2 {
+  width: 38px;
+  height: 4px;
+  background-color: var(--primary-color);
+  position: absolute;
+  bottom: -2px;
+  right: -1px;
+  transform: rotate(45deg);
+  transform-origin: 100% 50%;
+}
+
+.section-4 .arrow .line-3 {
+  width: 38px;
+  height: 4px;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  transform: rotate(-45deg);
+  transform-origin: 100% 50%;
 }
 
 .section-4 .scribble-4-1 {
@@ -370,7 +408,6 @@ header li:not(:first-child) a {
     grid-template-rows: auto;
     grid-template-areas:
       "one one"
-      "two two"
       "three four";
     justify-content: center;
     row-gap: 40px;
@@ -381,8 +418,16 @@ header li:not(:first-child) a {
     justify-self: center;
   }
 
+  .section-4 .container .img-2-wrapper {
+    display: none;
+  }
+
   .section-4 .container img {
     width: 100%;
+  }
+
+  .section-4 .arrow {
+    margin-top: 70px;
   }
 }
 
@@ -447,7 +492,6 @@ header li:not(:first-child) a {
     grid-template-columns: 1fr;
     grid-template-areas:
       "one"
-      "two"
       "three"
       "four";
     justify-content: center;
