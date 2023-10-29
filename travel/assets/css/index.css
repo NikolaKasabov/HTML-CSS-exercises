@@ -453,6 +453,90 @@ header li:not(:first-child) a {
   transform: scale(2);
 }
 
+/* SECTION-6 */
+.section-6 {
+  padding: 150px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.section-6 .left {
+  max-width: 740px;
+}
+
+.section-6 .left .container {
+  margin-top: 50px;
+}
+
+.section-6 .left h2 {
+  font-size: 81px;
+  letter-spacing: -2px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.section-6 .left .line {
+  height: 3px;
+  background-color: var(--primary-color);
+}
+
+.section-6 .left .item .header {
+  padding: 0 35px;
+  min-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.section-6 .left .item .header p {
+  font-size: 17px;
+}
+
+.section-6 .left .item .header .toggle-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.section-6 .left .item .header .toggle-btn .fa-minus {
+  display: none;
+}
+
+.section-6 .left .item .header .toggle-btn .fa-plus {
+  display: block;
+}
+
+.section-6 .left .item.active .header .toggle-btn .fa-minus {
+  display: block;
+}
+
+.section-6 .left .item.active .header .toggle-btn .fa-plus {
+  display: none;
+}
+
+.section-6 .left .item .header i {
+  font-size: 24px;
+}
+
+.section-6 .left .item .text-wrapper {
+  padding: 0 35px 0 35px;
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s;
+}
+
+.section-6 .left .item.active .text-wrapper {
+  padding-bottom: 35px;
+  grid-template-rows: 1fr;
+}
+
+.section-6 .left .item .text {
+  font-size: 18px;
+  overflow: hidden;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1440px) {
   .section-1 {
@@ -514,6 +598,10 @@ header li:not(:first-child) a {
   header {
     padding: 75px 20px;
   }
+
+  .section-6 .right {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -552,6 +640,7 @@ header li:not(:first-child) a {
 
   header li a {
     color: var(--secondary-color);
+    font-size: 26px;
   }
 
   .section-1 .left h1,
@@ -560,11 +649,13 @@ header li:not(:first-child) a {
   }
 
   .section-2 h2,
-  .section-5 .left h2 {
+  .section-5 .left h2,
+  .section-6 .left h2 {
     font-size: 40px;
   }
 
-  .section-3 {
+  .section-3,
+  .section-6 {
     padding: 80px 20px;
   }
 
@@ -581,5 +672,9 @@ header li:not(:first-child) a {
 
   .section-4 .subtitle {
     font-size: 22px;
+  }
+
+  .section-6 .left h2 {
+    text-align: center;
   }
 }
