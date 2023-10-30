@@ -4,6 +4,7 @@ const closeNavBtn = document.getElementById('close-nav-btn');
 const navLinks = document.querySelectorAll('header nav a');
 const accordionItems = document.querySelectorAll('.section-6 .left .item');
 const toggleAccordionButtons = document.querySelectorAll('.section-6 .left .toggle-btn');
+const yearEl = document.getElementById('year');
 
 openNavBtn.addEventListener('click', () => {
   openNav();
@@ -43,3 +44,5 @@ toggleAccordionButtons.forEach(btn => {
 function closeAllAccordionItems() {
   accordionItems.forEach(item => item.classList.remove('active'));
 }
+
+yearEl.innerHTML = new Date().getFullYear();

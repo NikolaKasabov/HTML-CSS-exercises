@@ -602,6 +602,89 @@ header li:not(:first-child) a {
   width: 100%;
 }
 
+/* FOOTER */
+footer {
+  padding: 115px 20px 120px 20px;
+  background-color: #c4c4c4;
+  position: relative;
+  overflow: hidden;
+}
+
+footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+}
+
+footer .left {
+  margin-left: 115px;
+}
+
+footer .left h2 {
+  max-width: 230px;
+  font-size: 63px;
+  letter-spacing: -2px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+footer .right h3 {
+  font-size: 25px;
+  letter-spacing: -1px;
+  font-weight: 900;
+  font-family: inherit;
+}
+
+footer .right .links-container {
+  margin-top: 42px;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+
+footer .right ul:nth-child(1) {
+  margin-right: 90px;
+}
+
+footer .right ul:nth-child(2) {
+  margin-right: 100px;
+}
+
+footer .right ul:nth-child(3) {
+  margin-right: 65px;
+}
+
+footer .right li:not(:first-child) {
+  margin-top: 25px;
+}
+
+footer .right a {
+  font-size: 21px;
+  letter-spacing: -1px;
+  color: var(--primary-color);
+  background-color: #c4c4c4;
+  position: relative;
+  z-index: 5;
+}
+
+footer .footnote {
+  width: fit-content;
+  margin: 125px auto 0 auto;
+  text-align: center;
+  font-size: 21px;
+  background-color: #c4c4c4;
+  position: relative;
+  z-index: 5;
+}
+
+footer .scribble-footer {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  transform: scale(1.4) translateX(-30%);
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1440px) {
   .section-1 {
@@ -611,6 +694,21 @@ header li:not(:first-child) a {
 
   .section-1 .left {
     max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  footer .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .left {
+    margin-left: 0;
+  }
+
+  footer .left h2 {
+    max-width: none;
   }
 }
 
@@ -724,7 +822,8 @@ header li:not(:first-child) a {
 
   .section-2 h2,
   .section-5 .left h2,
-  .section-6 .left h2 {
+  .section-6 .left h2,
+  footer .left h2 {
     font-size: 40px;
   }
 
@@ -755,5 +854,28 @@ header li:not(:first-child) a {
   .section-7 .left h2 {
     text-align: center;
     font-size: 44px;
+  }
+
+  .section-7 .left input,
+  .section-7 .left textarea {
+    font-size: 20px;
+  }
+
+  footer .container {
+    gap: 60px;
+  }
+
+  footer .right {
+    text-align: center;
+  }
+
+  footer .right .links-container {
+    flex-direction: column;
+  }
+
+  footer .right ul:nth-child(1),
+  footer .right ul:nth-child(2),
+  footer .right ul:nth-child(3) {
+    margin-right: 0;
   }
 }
