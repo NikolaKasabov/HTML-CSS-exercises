@@ -1,0 +1,136 @@
+@import url("./reset.css");
+
+@font-face {
+  font-family: Reey;
+  src: url("../fonts/Reey-Regular.otf");
+}
+
+:root {
+  --primary-color: #27292c;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+/* HEADER */
+header {
+  background: url(../images/header-background.png) no-repeat center / cover;
+}
+
+header .top {
+  padding: 45px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 60px;
+}
+
+header .top .open-nav-btn {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 40px;
+  display: none;
+}
+
+header .top nav {
+  position: relative;
+}
+
+header .top ul {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+
+header .top ul a {
+  font-size: 17px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+}
+
+header .top .close-nav-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 40px;
+  display: none;
+}
+
+header .top form {
+  width: 180px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+header .top form input {
+  width: 100%;
+  height: 50px;
+  padding: 0 45px 0 15px;
+  border-radius: 25px;
+  border: none;
+  font-size: 18px;
+  font-family: inherit;
+}
+
+header .top form button  {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 900px) {
+  header .top {
+    padding: 45px 20px;
+    justify-content: space-between;
+    gap: unset;
+  }
+
+  header .top .open-nav-btn {
+    display: block;
+  }
+
+  header .top nav {
+    padding-top: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    z-index: 20;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+
+  header .top nav.open {
+    opacity: 1;
+    pointer-events: auto;
+  }  
+
+  header .top ul {
+    flex-direction: column;
+  }
+
+  header .top .close-nav-btn {
+    display: block;
+  }
+}
