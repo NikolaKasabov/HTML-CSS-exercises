@@ -293,6 +293,69 @@ header .top form button {
   font-weight: 700;
 }
 
+/* SECTION-3 */
+.section-3 {
+  padding: 50px 20px;
+}
+
+.section-3 img {
+  width: 100%;
+}
+
+.section-3 h2 {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.section-3 p {
+  margin-top: 30px;
+  font-size: 29px;
+}
+
+.section-3 .btn {
+  margin-top: 50px;
+  height: 75px;
+  padding: 0 80px;
+  border-radius: 40px;
+  color: #fff;
+  background-color: var(--primary-color);
+  font-size: 23px;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+
+.section-3 .container-1 {
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+
+.section-3 .container-1 .left {
+  max-width: 610px;
+}
+
+.section-3 .container-1 .right {
+  max-width: 535px;
+}
+
+.section-3 .container-2 {
+  margin: 125px 0 0 120px;
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+
+.section-3 .container-2 .left {
+  max-width: 510px;
+}
+
+.section-3 .container-2 .right {
+  max-width: 667px;
+}
+
+
 /* FOOTER */
 footer {
   padding: 250px 20px 300px 20px;
@@ -371,6 +434,16 @@ footer .item-3 {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .section-3 .container-1,
+  .section-3 .container-2 {
+    margin-left: 0;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .header-section {
     flex-direction: column;
@@ -436,17 +509,23 @@ footer .item-3 {
   }
 
   .section-1 .title,
-  .section-2 h2 {
+  .section-2 h2,
+  .section-3 h2 {
     font-size: 40px;
   }
 
-  .section-1 .subtitle {
+  .section-1 .subtitle,
+  .section-3 p {
     font-size: 22px;
   }
 
   .section-1 .btn {
     padding: 0 50px;
     font-size: 20px;
+  }
+
+  .section-3 .btn {
+    padding: 0 45px;
   }
 
   footer {
