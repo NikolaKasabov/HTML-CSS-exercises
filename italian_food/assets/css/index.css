@@ -256,6 +256,43 @@ header .top form button {
   margin: 115px auto 0 auto;
 }
 
+/* SECTION-2 */
+.section-2 {
+  padding: 80px 20px 70px 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.section-2 h2 {
+  font-size: 75px;
+  font-family: "Reey";
+  font-weight: 400;
+  text-align: center;
+}
+
+.section-2 .container {
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px 60px;
+}
+
+.section-2 .container > p {
+  max-width: 500px;
+}
+
+.section-2 .btn {
+  margin: 75px auto 0 auto;
+  display: block;
+  height: 58px;
+  padding: 0 54px;
+  border-radius: 22px;
+  background-color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+}
+
 /* FOOTER */
 footer {
   padding: 250px 20px 300px 20px;
@@ -398,7 +435,8 @@ footer .item-3 {
     margin-top: 50px;
   }
 
-  .section-1 .title {
+  .section-1 .title,
+  .section-2 h2 {
     font-size: 40px;
   }
 
@@ -409,6 +447,10 @@ footer .item-3 {
   .section-1 .btn {
     padding: 0 50px;
     font-size: 20px;
+  }
+
+  footer {
+    padding: 80px 20px;
   }
 
   footer .container {
