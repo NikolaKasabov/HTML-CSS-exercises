@@ -300,6 +300,7 @@ header .top form button {
 
 .section-3 img {
   width: 100%;
+  filter: drop-shadow(4.185px 59.854px 28.5px rgba(12,13,12,0.45));
 }
 
 .section-3 h2 {
