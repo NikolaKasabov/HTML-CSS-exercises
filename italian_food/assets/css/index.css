@@ -300,7 +300,7 @@ header .top form button {
 
 .section-3 img {
   width: 100%;
-  filter: drop-shadow(4.185px 59.854px 28.5px rgba(12,13,12,0.45));
+  filter: drop-shadow(4.185px 59.854px 28.5px rgba(12, 13, 12, 0.45));
 }
 
 .section-3 h2 {
@@ -356,6 +356,52 @@ header .top form button {
   max-width: 667px;
 }
 
+/* SECTION-4 */
+.section-4 {
+  padding: 137px 20px 46% 20px;
+  color: #fff;
+  background: url("../images/header-background.png") no-repeat center / cover;
+  text-align: center;
+  position: relative;
+}
+
+.section-4 h2 {
+  font-size: 58px;
+  font-family: "Reey";
+  font-weight: 400;
+}
+
+.section-4 p {
+  margin: 55px auto 0px auto;
+  max-width: 696px;
+  font-size: 25px;
+  line-height: 1.32;
+}
+
+.section-4 .line {
+  margin: 38px auto 25px auto;
+  width: 162px;
+  height: 10px;
+  background-color: #fafafa;
+}
+
+.section-4 .img-wrapper {
+  width: calc(100% - 40px);
+  position: absolute;
+}
+
+.section-4 .img-wrapper .pizza {
+  width: 56%;
+  transform: translateX(15%);
+}
+
+.section-4 .img-wrapper .slice {
+  position: absolute;
+  bottom: 0;
+  left: 23%;
+  width: 32%;
+  transform: rotate(-6deg);
+}
 
 /* FOOTER */
 footer {
@@ -435,7 +481,7 @@ footer .item-3 {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
   .section-3 .container-1,
   .section-3 .container-2 {
     margin-left: 0;
@@ -511,12 +557,14 @@ footer .item-3 {
 
   .section-1 .title,
   .section-2 h2,
-  .section-3 h2 {
+  .section-3 h2,
+  .section-4 h2 {
     font-size: 40px;
   }
 
   .section-1 .subtitle,
-  .section-3 p {
+  .section-3 p,
+  .section-4 p {
     font-size: 22px;
   }
 
