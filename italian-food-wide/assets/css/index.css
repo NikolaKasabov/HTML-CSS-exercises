@@ -1,0 +1,30 @@
+@import url("./reset.css");
+@import url("./header.css");
+
+@import url("./media-queries.css");
+
+@font-face {
+  font-family: "Reey";
+  src: url("../fonts/reey/Reey-Regular.otf") format("truetype");
+  font-weight: 400;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  /* TODO: delete next lines */
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+}

@@ -1,0 +1,135 @@
+header {
+  background: url("../images/header-background.jpg") no-repeat center / cover;
+  overflow: hidden;
+}
+
+header .main-container {
+  color: #fff;
+}
+
+header a {
+  font-size: 17px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+}
+
+header .top {
+  padding: 45px 45px 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+header .top ul {
+  display: flex;
+  align-items: center;
+  gap: 57px;
+}
+
+header .top form {
+  width: 183px;
+  height: 51px;
+  position: relative;
+}
+
+header .top form input {
+  width: 100%;
+  height: 100%;
+  padding: 0 60px 0 15px;
+  border-radius: 25px;
+  background-color: #fff;
+  border: none;
+  font-size: 18px;
+  font-family: inherit;
+}
+
+header .top form button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
+}
+
+header .top form button i {
+  font-size: 30px;
+}
+
+header .bottom {
+  margin-top: 100px;
+  padding: 0 40px 235px 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .bottom .left .logo {
+  width: 160px;
+}
+
+header .bottom .left .title {
+  margin-top: 20px;
+  font-size: 92px;
+  font-family: "Reey";
+  font-weight: 400;
+  filter: drop-shadow(0px 5px 2.5px rgba(84, 82, 79, 0.22));
+}
+
+header .bottom .left .subtitle {
+  margin-top: 105px;
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+header .bottom .left button {
+  margin-top: 65px;
+  opacity: 0.902;
+  width: 218px;
+  height: 47px;
+  border-radius: 21px;
+  background-color: #fff;
+  font-size: 25px;
+  color: #2e3034;
+  font-weight: 800;
+  font-family: "Open Sans";
+  position: relative;
+  z-index: 10;
+}
+
+header .bottom .left .text {
+  margin-top: 20px;
+  max-width: 475px;
+  font-size: 21px;
+  letter-spacing: 1px;
+  font-style: italic;
+  position: relative;
+  z-index: 10;
+}
+
+header .bottom .right {
+  max-width: 630px;
+  position: relative;
+}
+
+header .bottom .right .plate {
+  width: 100%;
+}
+
+header .bottom .right .cup {
+  max-width: 292px;
+  width: 46.35%;
+  position: absolute;
+  bottom: -200px;
+  left: -130px;
+}
+
+header .bottom .right .leaves {
+  position: absolute;
+  bottom: -315px;
+  right: -110px;
+}
