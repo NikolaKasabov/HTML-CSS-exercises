@@ -1,0 +1,45 @@
+.section-2 {
+  background-color: #27292c;
+  color: #fff;
+}
+
+.section-2 .main-container {
+  padding: 85px 20px 70px 20px;
+}
+
+.section-2 .title {
+  font-size: 75px;
+  font-family: "Reey";
+  font-weight: 400;
+  text-align: center;
+}
+
+.section-2 .container {
+  margin-top: 72px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.section-2 .container p {
+  max-width: 500px;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Montserrat";
+}
+
+.section-2 .btn {
+  margin: 65px auto 0 auto;
+  display: block;
+  width: 100%;
+  max-width: 270px;
+  height: 58px;
+  opacity: 0.902;
+  border-radius: 22px;
+  background-color: #fdfdfd;
+  font-size: 26px;
+  color: #27292c;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
