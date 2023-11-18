@@ -2,6 +2,7 @@
 @import url("./header.css");
 @import url("./section-1.css");
 @import url("./section-2.css");
+@import url("./section-3.css");
 
 @import url("./media-queries.css");
 
@@ -33,4 +34,5 @@ body {
   background-color: transparent;
   cursor: pointer;
   text-transform: uppercase;
+  font-family: inherit;
 }
