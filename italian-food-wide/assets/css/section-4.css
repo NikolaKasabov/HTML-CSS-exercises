@@ -1,0 +1,49 @@
+.section-4 {
+  background: url("../images/header-background.jpg") no-repeat center / cover;
+  margin-bottom: -240px;
+}
+
+.section-4 .main-container {
+  padding: 135px 20px 0 20px;
+  text-align: center;
+}
+
+.section-4 .title {
+  font-size: 58px;
+  color: #f8f6f1;
+  font-family: "Reey";
+  font-weight: 400;
+}
+
+.section-4 .subtitle {
+  margin: 60px auto 0 auto;
+  max-width: 710px;
+  font-size: 25px;
+  line-height: 33px;
+  color: #f8f6f1;
+  font-family: "Montserrat";
+}
+
+.section-4 .line {
+  margin: 37px auto 0 auto;
+  width: 162px;
+  height: 10px;
+  background-color: #fafafa;
+}
+
+.section-4 .pizza-container {
+  position: relative;
+}
+
+.section-4 .pizza-container .pizza {
+  margin-top: -6%;
+  width: 70.5%;
+  transform: translateX(17%);
+}
+
+.section-4 .pizza-container .slice {
+  width: 32%;
+  position: absolute;
+  bottom: 7%;
+  left: 20%;
+}
