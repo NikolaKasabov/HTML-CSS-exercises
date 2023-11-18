@@ -1,6 +1,5 @@
 header {
   background: url("../images/header-background.jpg") no-repeat center / cover;
-  overflow: hidden;
 }
 
 header .main-container {
@@ -130,6 +129,6 @@ header .bottom .right .cup {
 
 header .bottom .right .leaves {
   position: absolute;
-  bottom: -315px;
+  bottom: -320px;
   right: -110px;
 }

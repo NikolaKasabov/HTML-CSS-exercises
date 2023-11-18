@@ -1,5 +1,6 @@
 @import url("./reset.css");
 @import url("./header.css");
+@import url("./section-1.css");
 
 @import url("./media-queries.css");
 
@@ -11,6 +12,10 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+.site-wrapper {
+  overflow: hidden;
 }
 
 .main-container {
