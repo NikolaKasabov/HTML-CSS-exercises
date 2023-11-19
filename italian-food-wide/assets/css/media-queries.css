@@ -56,6 +56,18 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .section-6 form input {
+    padding: 0 35px;
+  }
+
+  .section-6 form button {
+    margin-top: 20px;
+    position: static;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .section-4 {
     margin-bottom: -55px;

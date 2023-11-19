@@ -1,0 +1,51 @@
+.section-5 {
+  background-color: #fff;
+}
+
+.section-5 .main-container {
+  padding: 160px 20px 185px 20px;
+}
+
+.section-5 .cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.section-5 .cards-container .card {
+  max-width: 335px;
+}
+
+.section-5 .cards-container .card h3 {
+  font-size: 42px;
+  color: #393939;
+  font-family: "Reey";
+  font-weight: 400;
+  text-align: center;
+}
+
+.section-5 .cards-container .card p {
+  margin-top: 26px;
+  font-size: 19px;
+  line-height: 25px;
+  color: #333d42;
+}
+
+.section-5 .text {
+  margin: 225px auto 0 auto;
+  max-width: 790px;
+  font-size: 25px;
+  color: #3f3f3f;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.section-5 h4 {
+  margin-top: 50px;
+  font-size: 21px;
+  color: #3f3f3f;
+  font-weight: 700;
+  text-align: center;
+}
