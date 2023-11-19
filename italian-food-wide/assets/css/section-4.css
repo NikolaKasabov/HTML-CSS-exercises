@@ -6,6 +6,7 @@
 .section-4 .main-container {
   padding: 135px 20px 0 20px;
   text-align: center;
+  position: relative;
 }
 
 .section-4 .title {
@@ -13,6 +14,8 @@
   color: #f8f6f1;
   font-family: "Reey";
   font-weight: 400;
+  position: relative;
+  z-index: 10;
 }
 
 .section-4 .subtitle {
@@ -22,6 +25,8 @@
   line-height: 33px;
   color: #f8f6f1;
   font-family: "Montserrat";
+  position: relative;
+  z-index: 10;
 }
 
 .section-4 .line {
@@ -46,4 +51,10 @@
   position: absolute;
   bottom: 7%;
   left: 20%;
+}
+
+.section-4 .main-container .leaves {
+  position: absolute;
+  top: -170px;
+  right: 0;
 }
