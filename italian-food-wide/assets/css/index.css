@@ -6,7 +6,7 @@
 @import url("./section-4.css");
 @import url("./section-5.css");
 @import url("./section-6.css");
-
+@import url("./footer.css");
 @import url("./media-queries.css");
 
 @font-face {
@@ -26,10 +26,6 @@ body {
 .main-container {
   max-width: 1440px;
   margin: 0 auto;
-
-  /* TODO: delete next lines */
-  border-left: 1px solid red;
-  border-right: 1px solid red;
 }
 
 .btn {

@@ -50,6 +50,29 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  footer .main-container {
+    padding-left: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .item-1,
+  footer .item-2,
+  footer .item-3 {
+    margin-right: 0;
+  }
+
+  footer .item-1 {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  footer .item-1 .icons-container {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .section-4 {
     margin-bottom: -80px;
