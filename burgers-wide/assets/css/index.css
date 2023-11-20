@@ -1,0 +1,21 @@
+@import url("./reset.css");
+@import url("./header.css");
+
+@import url("./media-queries.css");
+
+:root {
+  --primary-color: #3d2514;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.site-wrapper {
+  overflow: hidden;
+}
+
+.main-container {
+  margin: 0 auto;
+  max-width: 1440px;
+}

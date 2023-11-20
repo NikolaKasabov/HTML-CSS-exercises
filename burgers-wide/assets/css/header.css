@@ -1,0 +1,135 @@
+header {
+  background: url("../images/header-background.png") no-repeat center / cover;
+  color: var(--primary-color);
+}
+
+header .top {
+  padding: 55px 55px 0 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .top .logo {
+  width: 263px;
+  height: 58px;
+}
+
+header .top .right .right-top {
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+header .top .right .right-top .scooter {
+  width: 41px;
+}
+
+header .top .right .right-top p {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+header .top .right ul {
+  display: flex;
+  gap: 55px;
+}
+
+header .top .right ul a {
+  font-size: 21px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+  color: var(--primary-color);
+}
+
+header .bottom {
+  padding: 100px 0 75px 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .bottom .left {
+  margin-top: 75px;
+}
+
+header .bottom .left p {
+  width: fit-content;
+  padding: 12px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+  border: 2px dashed;
+}
+
+header .bottom .left h1 {
+  margin-top: -7px;
+  font-size: 114px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+  filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+
+header .bottom .left h2 {
+  margin-top: -25px;
+  font-size: 56px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+  filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+
+header .bottom .right {
+  position: relative;
+}
+
+header .bottom .right .price {
+  width: 174px;
+  height: 174px;
+  border-radius: 50%;
+  background-color: #bf2121;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  font-family: "Bebas Neue";
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+header .bottom .right .price::before {
+  content: "";
+  width: 151px;
+  height: 151px;
+  border-radius: 50%;
+  border: 2px dashed #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header .bottom .right .price p {
+  line-height: 1;
+  font-size: 32px;
+}
+
+header .bottom .right .price p span {
+  font-size: 65px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+header .bottom .right .price p:last-child {
+  letter-spacing: 10px;
+}
+
+header .bottom .right .food {
+  width: 100%;
+}
