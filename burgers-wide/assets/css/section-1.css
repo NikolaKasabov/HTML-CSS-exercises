@@ -1,0 +1,55 @@
+.section-1 {
+  background-color: #fff;
+  color: #fff;
+}
+
+.section-1 .main-container {
+  padding: 75px 20px 70px 105px;
+}
+
+.section-1 .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 596px));
+  grid-template-rows: repeat(2, 192px);
+  grid-template-areas:
+    "left right-top"
+    "left right-bottom";
+  column-gap: 40px;
+  row-gap: 35px;
+}
+
+.section-1 .small {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+}
+
+.section-1 .big {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+  line-height: 1;
+}
+
+.section-1 .item {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.section-1 .item-1 {
+  padding: 28px 0 0 21px;
+  background: url("../images/section-1-1.png") no-repeat center / cover;
+  grid-area: left;
+}
+
+.section-1 .item-2 {
+  padding: 28px 0 0 28px;
+  background: url("../images/section-1-2.png") no-repeat center / cover;
+  grid-area: right-top;
+}
+
+.section-1 .item-3 {
+  padding: 28px 0 0 28px;
+  background: url("../images/section-1-3.png") no-repeat center / cover;
+  grid-area: right-bottom;
+}

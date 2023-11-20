@@ -15,6 +15,10 @@
     margin-right: auto;
     margin-left: auto;
   }
+
+  .section-1 .main-container {
+    padding-left: 20px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -27,5 +31,15 @@
 
   header .top .right .right-top {
     justify-content: flex-start;
+  }
+
+  .section-1 .grid-container {
+    grid-template-columns: repeat(1, minmax(280px, 596px));
+    grid-template-rows: repeat(3, 192px);
+    grid-template-areas:
+      "left left"
+      "right-top right-top"
+      "right-bottom right-bottom";
+    column-gap: 0;
   }
 }
