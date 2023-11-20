@@ -1,0 +1,96 @@
+.section-2 {
+  background-color: #fff;
+  color: var(--primary-color);
+}
+
+.section-2 .main-container {
+  padding: 0 20px 130px 20px;
+  text-align: center;
+}
+
+.section-2 .label {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 14px 20px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Bebas Neue";
+  background-color: #ffc045;
+}
+
+.section-2 h2 {
+  margin-top: 28px;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+}
+
+.section-2 .text {
+  margin: 7px auto 0 auto;
+  max-width: 1075px;
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+
+.section-2 .cards-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.section-2 .card {
+  max-width: 350px;
+}
+
+.section-2 .card .img-wrapper {
+  position: relative;
+}
+
+.section-2 .card img.burger {
+  width: 100%;
+}
+
+.section-2 .card img.shadow {
+  width: 150%;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-2 .card h3 {
+  margin-top: 60px;
+  font-size: 38px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Bebas Neue";
+}
+
+.section-2 .card p {
+  margin-top: 8px;
+  font-size: 17px;
+  line-height: 21px;
+  font-family: "Montserrat";
+}
+
+.section-2 .card .btn {
+  margin-top: 35px;
+  max-width: 195px;
+  width: 100%;
+  height: 57px;
+  background-color: #bf2222;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+  border: none;
+  cursor: pointer;
+}
