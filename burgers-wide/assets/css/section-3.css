@@ -1,0 +1,70 @@
+.section-3 {
+  background-color: #fff;
+  color: var(--primary-color);
+}
+
+.section-3 .main-container {
+  padding: 0 70px;
+}
+
+.section-3 .flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  filter: drop-shadow(18.656px 24.758px 21.5px rgba(0, 0, 0, 0.17));
+  background-color: #fff;
+}
+
+.section-3 .left {
+  padding: 60px 0 60px 55px;
+}
+
+.section-3 .left .before-title {
+  font-size: 29px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #3d3d3d;
+  font-family: "Bebas Neue";
+}
+
+.section-3 .left h2 {
+  font-size: 42px;
+  line-height: 46px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+}
+
+.section-3 .left .text {
+  margin-top: 27px;
+  max-width: 525px;
+  font-size: 21px;
+  line-height: 33px;
+  color: #3d3d3d;
+}
+
+.section-3 .left .circles-container {
+  margin-top: 80px;
+  display: flex;
+  gap: 7px;
+}
+
+.section-3 .left .circle {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #dcdcdc;
+}
+
+.section-3 .left .circle:first-child {
+  background-color: #ffc045;
+}
+
+.section-3 .right {
+  padding-right: 25px;
+}
+
+.section-3 .right img {
+  width: 100%;
+}
