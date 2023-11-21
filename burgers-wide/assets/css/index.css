@@ -3,7 +3,8 @@
 @import url("./section-1.css");
 @import url("./section-2.css");
 @import url("./section-3.css");
-
+@import url("./section-4.css");
+@import url("./footer.css");
 @import url("./media-queries.css");
 
 :root {
@@ -21,8 +22,9 @@ body {
 .main-container {
   margin: 0 auto;
   max-width: 1440px;
+}
 
-  /* TODO: delete next lines */
-  border-right: 1px solid red;
-  border-left: 1px solid red;
+.z10 {
+  position: relative;
+  z-index: 10;
 }

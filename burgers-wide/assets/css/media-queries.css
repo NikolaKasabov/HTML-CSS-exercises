@@ -19,6 +19,15 @@
   .section-1 .main-container {
     padding-left: 20px;
   }
+
+  footer .flex-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  footer .flex-container .right {
+    align-self: flex-start;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -66,5 +75,24 @@
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  footer .main-container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section-4 form {
+    grid-template-columns: repeat(1, minmax(200px, 380px));
+    column-gap: 0;
+  }
+
+  footer .icons-container {
+    bottom: 60px;
+    left: 40px;
   }
 }

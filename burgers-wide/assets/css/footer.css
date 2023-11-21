@@ -1,0 +1,89 @@
+footer {
+  background-color: #fff;
+  color: #fff;
+}
+
+footer .main-container {
+  padding: 10px 55px 65px 55px;
+}
+
+footer .container {
+  padding-bottom: 210px;
+  background: url("../images/footer-background.jpg") no-repeat center / cover;
+  position: relative;
+}
+
+footer .flex-container {
+  padding: 80px 125px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+footer .flex-container .left p {
+  margin-top: 40px;
+  max-width: 510px;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+footer .flex-container .right {
+  align-self: flex-end;
+}
+
+footer .flex-container .right > div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+footer .flex-container .right > div:first-child {
+  margin-bottom: 13px;
+  padding-left: 5px;
+}
+
+footer .flex-container .right i {
+  font-size: 32px;
+}
+
+footer .flex-container .right p {
+  font-size: 21px;
+  font-family: "Bebas Neue";
+}
+
+footer .copyright {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  bottom: 24px;
+  left: 40px;
+}
+
+footer .copyright p {
+  font-size: 17px;
+  font-family: "Bebas Neue";
+}
+
+footer .icons-container {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 28px;
+}
+
+footer .icons-container .icon-wrapper {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .icons-container .icon-wrapper i {
+  font-size: 20px;
+  color: var(--primary-color);
+}

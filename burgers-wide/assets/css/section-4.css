@@ -1,0 +1,79 @@
+.section-4 {
+  background-color: #fff;
+  color: var(--primary-color);
+}
+
+.section-4 .main-container {
+  padding: 123px 20px 175px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.section-4 h3 {
+  font-size: 29px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Bebas Neue";
+}
+
+.section-4 h2 {
+  margin-top: 2px;
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+}
+
+.section-4 form {
+  margin: 70px auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 380px));
+  justify-content: center;
+  row-gap: 25px;
+  column-gap: 25px;
+}
+
+.section-4 input {
+  padding: 0 20px;
+  height: 65px;
+  border-radius: 5px;
+  border: 1px solid #bebebe;
+  font-size: 21px;
+  color: var(--primary-color);
+  font-weight: 400;
+  font-family: "Bebas Neue";
+}
+
+.section-4 input::placeholder {
+  font-size: 21px;
+  color: #3d3d3d;
+  font-weight: 400;
+  font-family: "Bebas Neue";
+}
+
+.section-4 button {
+  height: 65px;
+  border-radius: 5px;
+  background-color: #bf2222;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+  border: none;
+}
+
+.section-4 .img-1 {
+  position: absolute;
+  top: 0;
+  left: -85px;
+}
+
+.section-4 .img-2 {
+  position: absolute;
+  bottom: 0;
+  right: -140px;
+  filter: drop-shadow(32.147px 36.981px 49px rgba(0, 0, 0, 0.38));
+}
