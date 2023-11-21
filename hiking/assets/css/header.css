@@ -1,0 +1,127 @@
+header {
+  position: relative;
+  background: url('../images/header-background.jpg') no-repeat center / cover;
+}
+
+header .top {
+  padding: 30px 55px 0 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .top .logo {
+  width: 90px;
+}
+
+header .top .right {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+
+header .top .right ul {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+
+header .top .right a {
+  font-size: 17px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #54524f;
+  font-weight: 700;
+}
+
+header .top .right form {
+  max-width: 184px;
+  height: 52px;
+  position: relative;
+}
+
+header .top .right form input {
+  width: 100%;
+  height: 100%;
+  padding: 0 65px 0 10px;
+  border-radius: 25px;
+  background-color: #c3bfbb;
+  border: none;
+  font-family: inherit;
+  font-size: 20px;
+  color: #000;
+}
+
+header .top .right form button {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+}
+
+header .top .right form i {
+  font-size: 30px;
+  color: #68635e;
+}
+
+header .bottom {
+  padding: 225px 0 220px 93px;
+}
+
+header .bottom h1 {
+  max-width: 555px;
+  font-size: 92px;
+  color: #deb37e;
+  font-weight: 800;
+  font-family: "Open Sans";
+  filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.22));
+  line-height: 1.2;
+}
+
+header .bottom .subtitle {
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: #54524f;
+  font-weight: 700;
+  font-style: italic;
+}
+
+header .bottom .btn {
+  margin-top: 58px;
+  max-width: 219px;
+  width: 100%;
+  height: 47px;
+  background-color: #fefefd;
+  border-radius: 21px;
+  font-size: 25px;
+  color: #776c64;
+  font-weight: 800;
+  font-family: "Open Sans";
+}
+
+header .bottom .text {
+  margin-top: 20px;
+  max-width: 475px;
+  font-size: 21px;
+  letter-spacing: 1px;
+  color: #54524f;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Open Sans";
+}
+
+header .shape-top {
+  width: 110%;
+  height: 196px;
+  position: absolute;
+  top: 0;
+  left: -50px;
+}
+
+header .shape-bottom {
+  width: 110%;
+  height: 191px;
+  position: absolute;
+  bottom: 0;
+  left: -50px;
+}
