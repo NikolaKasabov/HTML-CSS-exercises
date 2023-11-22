@@ -1,0 +1,51 @@
+.section-3 {
+  background-color: #deb37e;
+  color: #fff;
+}
+
+.section-3 .main-container {
+  display: flex;
+}
+
+.section-3 .main-container > * {
+  width: 50%;
+}
+
+.section-3 .left {
+  padding: 200px 20px 0 135px;
+}
+
+.section-3 .left h2 {
+  max-width: 500px;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.section-3 .left p {
+  max-width: 510px;
+  margin-top: 32px;
+  font-size: 29px;
+  line-height: 1.2;
+}
+
+.section-3 .left button {
+  margin-top: 60px;
+  max-width: 334px;
+  width: 100%;
+  height: 75px;
+  border-radius: 37px;
+  background-color: #e2a355;
+  font-size: 23px;
+  letter-spacing: 5px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+
+.section-3 .right img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}

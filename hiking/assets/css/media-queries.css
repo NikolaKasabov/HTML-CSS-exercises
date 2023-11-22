@@ -11,17 +11,26 @@
 }
 
 @media screen and (max-width: 900px) {
-  .section-2 .main-container {
+  .section-2 .main-container,
+  .section-3 .main-container {
     flex-direction: column;
   }
 
-  .section-2 .right {
+  .section-2 .main-container > *,
+  .section-3 .main-container > *  {
+    width: auto;
+  }
+
+  .section-2 .right,
+  .section-3 .left {
     padding: 100px 20px;
     text-align: center;
   }
 
   .section-2 .right h2,
-  .section-2 .right p {
+  .section-2 .right p,
+  .section-3 .left h2,
+  .section-3 .left p {
     margin-right: auto;
     margin-left: auto;
   }
