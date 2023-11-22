@@ -1,0 +1,32 @@
+.section-5 {
+  background: url("../images/section-5-1.jpg") no-repeat center / cover;
+  position: relative;
+}
+
+.section-5 .main-container {
+  padding: 370px 100px 440px 20px;
+}
+
+.section-5 h2 {
+  margin-left: auto;
+  max-width: 480px;
+  font-size: 76px;
+  color: #deb37e;
+  font-weight: 800;
+  font-style: italic;
+  font-family: "Open Sans";
+  text-align: right;
+  filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.36));
+}
+
+.section-5 h2 span {
+  color: #54524f;
+}
+
+.section-5 .shape-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 160px;
+}
