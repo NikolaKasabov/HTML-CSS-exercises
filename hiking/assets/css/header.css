@@ -115,7 +115,8 @@ header .shape-top {
   height: 196px;
   position: absolute;
   top: 0;
-  left: -50px;
+  left: 0;
+  transform: translateX(-5%);
 }
 
 header .shape-bottom {
@@ -123,5 +124,6 @@ header .shape-bottom {
   height: 191px;
   position: absolute;
   bottom: 0;
-  left: -50px;
+  left: 0;
+  transform: translateX(-5%);
 }
