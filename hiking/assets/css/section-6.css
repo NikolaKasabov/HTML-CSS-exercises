@@ -1,0 +1,62 @@
+.section-6 {
+  background-color: #fff;
+}
+
+.section-6 .main-container {
+  padding: 65px 20px 96px 20px;
+}
+
+.section-6 .cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.section-6 .card {
+  max-width: 335px;
+}
+
+.section-6 .card h3 {
+  font-size: 33px;
+  line-height: 33px;
+  color: #deb37e;
+  font-weight: 700;
+}
+
+.section-6 .card p {
+  margin-top: 27px;
+  font-size: 19px;
+  line-height: 25px;
+  color: #333d42;
+}
+
+.section-6 .quotation-mark {
+  margin-top: 230px;
+  font-size: 100px;
+  color: #3f3f3f;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+  line-height: 1;
+}
+
+.section-6 .text {
+  margin: -18px auto 0 auto;
+  max-width: 790px;
+  font-size: 25px;
+  color: #3f3f3f;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.section-6 .author {
+  margin-top: 43px;
+  font-size: 21px;
+  line-height: 33px;
+  color: #3f3f3f;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+}
