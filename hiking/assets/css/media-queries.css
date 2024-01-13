@@ -40,7 +40,42 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  header .top {
+    padding-right: 20px;
+    padding-left: 20px;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  header .top .right {
+    gap: 30px;
+  }
+
+  header .top .right ul {
+    flex-wrap: wrap;
+  }
+
+  header .top .right form {
+    max-width: none;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 500px) {
+  header .bottom {
+    padding-top: 100px;
+    padding-left: 20px;
+  }
+
+  header .bottom h1 {
+    font-size: 65px;
+  }
+
+  .section-5 h2 {
+    font-size: 55px;
+  }
+
   .section-7 input {
     padding-right: 20px;
   }
@@ -49,5 +84,11 @@
     margin-top: 20px;
     max-width: none;
     position: static;
+  }
+
+  footer .main-container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 40px;
   }
 }
