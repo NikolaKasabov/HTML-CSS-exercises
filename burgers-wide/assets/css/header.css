@@ -44,6 +44,15 @@ header .top .right ul a {
   color: var(--primary-color);
 }
 
+header .top #open-nav-btn,
+header .top #close-nav-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 40px;
+  cursor: pointer;
+  display: none;
+}
+
 header .bottom {
   padding: 100px 0 75px 55px;
   display: flex;
