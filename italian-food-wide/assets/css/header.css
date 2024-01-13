@@ -15,7 +15,7 @@ header a {
 }
 
 header .top {
-  padding: 45px 45px 0 0;
+  padding: 45px 45px 0 20px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -26,6 +26,7 @@ header .top {
 header .top ul {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 57px;
 }
 
