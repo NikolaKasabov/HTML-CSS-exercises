@@ -1,0 +1,34 @@
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./section-1.css");
+@import url("./section-2.css");
+@import url("./section-3.css");
+@import url("./section-4.css");
+@import url("./section-5.css");
+@import url("./section-6.css");
+@import url("./section-7.css");
+@import url("./section-8.css");
+@import url("./section-9.css");
+@import url("./section-10.css");
+@import url("./footer.css");
+@import url("./media-queries.css");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.site-wrapper {
+  overflow: hidden;
+}
+
+.main-container {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: inherit;
+}

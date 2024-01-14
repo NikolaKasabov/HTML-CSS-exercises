@@ -1,0 +1,30 @@
+footer {
+  background-color: #000;
+  color: #ccc;
+  text-align: center;
+}
+
+footer .main-container {
+  padding: 21px 20px 10px 20px;
+}
+
+footer .icons-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 27px;
+}
+
+footer i {
+  font-size: 23px;
+  color: #ccc;
+}
+
+footer p {
+  margin-top: 9px;
+  opacity: 0.502;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Open Sans";
+}

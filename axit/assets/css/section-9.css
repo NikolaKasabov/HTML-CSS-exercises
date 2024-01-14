@@ -1,0 +1,42 @@
+.section-9 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/section-9-background.jpg") no-repeat center / cover;
+  text-align: center;
+}
+
+.section-9 .main-container {
+  padding: 66px 20px 64px 20px;
+}
+
+.section-9 .main-container h2 {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Raleway";
+}
+
+.section-9 .main-container > .line {
+  margin: 22px auto 0 auto;
+  width: 63px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.section-9 .main-container > p {
+  margin-top: 26px;
+  opacity: 0.8;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.section-9 button {
+  margin-top: 39px;
+  height: 40px;
+  padding: 0 28px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Open Sans";
+}

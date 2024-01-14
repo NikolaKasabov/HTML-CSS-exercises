@@ -1,0 +1,40 @@
+.section-2 {
+  background-color: #fff;
+  filter: drop-shadow(0px 1px 1.5px rgba(0,0,0,0.38));
+}
+
+.section-2 .main-container {
+  padding: 17px 165px 17px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-2 .left h3 {
+  font-size: 20px;
+  color: #333333;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+
+.section-2 .left p {
+  margin-top: 4px;
+  max-width: 364px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.section-2 .right {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.section-2 .right i {
+  font-size: 48px;
+  color: #cccccc;
+}
