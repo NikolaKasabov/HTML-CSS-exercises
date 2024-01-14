@@ -6,6 +6,8 @@ header .main-container {
   padding: 22px 147px 21px 151px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 header img {
@@ -15,7 +17,9 @@ header img {
 header ul {
   display: flex;
   align-items: center;
-  gap: 47px;
+  column-gap: 47px;
+  row-gap: 20px;
+  flex-wrap: wrap;
 }
 
 header a {
